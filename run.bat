@@ -1,1 +1,1 @@
-pytest -s -v .\testCases\test_Login.py
+pytest -s -v .\testCases
