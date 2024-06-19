@@ -31,7 +31,6 @@ def fillGreenColor(file,sheetName,rownum,columnno):
     sheet.cell(rownum,columnno).fill=greenFill
     workbook.save(file)
 
-
 def fillRedColor(file,sheetName,rownum,columnno):
     workbook = openpyxl.load_workbook(file)
     sheet = workbook[sheetName]

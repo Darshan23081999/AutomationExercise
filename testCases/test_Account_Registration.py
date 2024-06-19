@@ -44,8 +44,8 @@ class Test001Accountreg:
         self.ar.selectCountry()
         self.ar.setState("Kar")
         self.ar.setCity("Nel")
-        # self.ar.setZipCode("56345")
-        # self.ar.setMobileNo("9113261921")
+        self.ar.setZipCode("56345")
+        self.ar.setMobileNo("9113261111")
         self.ar.clickCreateAcc()
         self.confmsg=self.ar.getConfirmationMsg()
         if self.confmsg == 'ACCOUNT CREATED!':

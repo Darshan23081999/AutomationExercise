@@ -30,7 +30,8 @@ class Test_02_login:
         else:
             self.driver.save_screenshot(os.path.abspath(os.curdir)+'\\screenshots\\'+'test_login.png')
             assert False
-        self.driver.close()
+        self.driver.refresh()
+        # self.driver.close()
         self.logger.info("End of TC02")
 
 
